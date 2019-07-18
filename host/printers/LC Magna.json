@@ -1,16 +1,16 @@
 {  
    "configuration":{  
-      "name":"Photocentric 10",
+      "name":"LC Magna",
       "machineConfig":{  
          "FileVersion":0,
-         "PlatformXSize":222.72,
-         "PlatformYSize":125.28,
-         "PlatformZSize":200.0,
+         "PlatformXSize":309.31,
+         "PlatformYSize":173.99,
+         "PlatformZSize":500,
          "MaxXFeedRate":0,
          "MaxYFeedRate":0,
          "MaxZFeedRate":0,
-         "XRenderSize":1400,
-         "YRenderSize":600,
+         "XRenderSize":3840,
+         "YRenderSize":2160,
          "MotorsDriverConfig":{  
             "DriverType":"Photocentric",
             "ComPortSettings":{  
@@ -23,18 +23,18 @@
             }
          },
          "MonitorDriverConfig":{  
-            "DLP_X_Res":1400,
-            "DLP_Y_Res":600,
+            "DLP_X_Res":3840.0,
+            "DLP_Y_Res":2160.0,
             "OSMonitorID":":0.0",
             "DisplayCommEnabled":false,
             "ComPortSettings":{  
                "PortName":null,
                "Handshake":"None"
             },
-            "MonitorTop":12.65,
-            "MonitorLeft":11.36,
-            "MonitorRight":11.36,
-            "MonitorBottom":12.64,
+            "MonitorTop":0,
+            "MonitorLeft":0,
+            "MonitorRight":0,
+            "MonitorBottom":0,
             "UseMask":false
          },
          "PauseOnPrinterResponseRegEx": ".*door.*open.*"
@@ -79,14 +79,14 @@
                "PercentageOfPrintMaterialConsideredEmpty":10.0,
                "Name":"Default",
                "SliceHeight":0.1,
-               "LayerTime":26000,
-               "FirstLayerTime":140000,
+               "LayerTime":9000,
+               "FirstLayerTime":40000,
                "NumberofBottomLayers":4,
-               "ResinPriceL":65.0
+               "ResinPriceL":80.0
             }
          ]
       },
-      "MachineConfigurationName":"Photocentric 10",
+      "MachineConfigurationName":"LC Magna",
       "SlicingProfileName":"Hard daylight red 0.1",
       "AutoStart":true
    },
